@@ -98,11 +98,11 @@ public class Main {
     }
     public static void task8(){
         System.out.println(" Задача №8");
-        int startYear=2022;
+        int startYear=2023;
         int fromYear=startYear-200;
         int toYear=startYear+100;
-        for (int i=fromYear; i<toYear; i++){
-            if (i%79==0);{
+        for (int i=fromYear; i<=toYear; i++){
+            if(i%79==0){
                 System.out.println(i);
             }
         }
